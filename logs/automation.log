@@ -1,0 +1,136 @@
+2026-05-18 00:19:47 INFO  BaseTest - Starting Suite: Test
+2026-05-18 00:19:48 INFO  BaseTest - Starting Test Execution...
+2026-05-18 00:19:48 INFO  BaseTest - Browser identified from config: chrome
+2026-05-18 00:20:01 INFO  BaseTest - Navigating to the URL: https://tutorialsninja.com/demo/
+2026-05-18 00:20:01 INFO  BaseTest - Test Started: registerAccount
+2026-05-18 00:20:01 INFO  BaseTest - Executing Scenario 1 registerAccount...
+2026-05-18 00:20:01 INFO  BaseTest - Clicked on My account...
+2026-05-18 00:20:03 INFO  BaseTest - Clicked on Register...
+2026-05-18 00:20:04 INFO  BaseTest - Filling the details
+2026-05-18 00:20:07 ERROR BaseTest - Test Failed: registerAccount
+2026-05-18 00:20:07 ERROR BaseTest - Reason: java.lang.AssertionError: expected [Congratulations! Your new account has been successfully created!] but found [If you already have an account with us, please login at the login page.]
+2026-05-18 00:20:08 INFO  BaseTest - Test Started: testMethod
+2026-05-18 00:20:08 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 00:20:08 INFO  BaseTest - Test Started: testMethod
+2026-05-18 00:20:08 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 00:20:08 INFO  BaseTest - Test Started: testMethod
+2026-05-18 00:20:08 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 00:20:08 INFO  BaseTest - Test Started: testMethod
+2026-05-18 00:20:08 ERROR BaseTest - Test Failed: testMethod
+2026-05-18 00:20:08 ERROR BaseTest - Reason: java.lang.AssertionError: expected [true] but found [false]
+2026-05-18 00:20:08 INFO  BaseTest - Test Started: loggingOut
+2026-05-18 00:20:08 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 00:20:09 ERROR BaseTest - Test Failed: loggingOut
+2026-05-18 00:20:09 ERROR BaseTest - Reason: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed27e49c85788655c365c3f3b7db1ffd, findElement {value=Logout, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2457255\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64221}, goog:processID: 30976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64221/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed27e49c85788655c365c3f3b7db1ffd
+2026-05-18 00:20:09 INFO  BaseTest - Test Started: loggingIn
+2026-05-18 00:20:09 INFO  BaseTest - Executing Scenario 3 registerAccount...
+2026-05-18 00:20:13 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 00:20:14 INFO  BaseTest - Test Sucess: loggingIn
+2026-05-18 00:20:15 INFO  BaseTest - Test Started: invalidLogin
+2026-05-18 00:20:15 INFO  BaseTest - Executing Scenario 4 registerAccount...
+2026-05-18 00:20:18 INFO  BaseTest - Test Sucess: invalidLogin
+2026-05-18 00:20:18 INFO  BaseTest - Quitting the browser to complete Execution.....
+2026-05-18 00:20:27 INFO  BaseTest - Test Finished: Test
+2026-05-18 10:55:52 INFO  BaseTest - Starting Suite: Test
+2026-05-18 10:55:52 INFO  BaseTest - Starting Test Execution...
+2026-05-18 10:55:52 INFO  BaseTest - Browser identified from config: chrome
+2026-05-18 10:56:04 INFO  BaseTest - Navigating to the URL: https://tutorialsninja.com/demo/
+2026-05-18 10:56:04 INFO  BaseTest - Test Started: registerAccount
+2026-05-18 10:56:04 INFO  BaseTest - Executing Scenario 1 registerAccount...
+2026-05-18 10:56:05 INFO  BaseTest - Clicked on My account...
+2026-05-18 10:56:06 INFO  BaseTest - Clicked on Register...
+2026-05-18 10:56:07 INFO  BaseTest - Filling the details
+2026-05-18 10:56:09 ERROR BaseTest - Test Failed: registerAccount
+2026-05-18 10:56:09 ERROR BaseTest - Reason: java.lang.AssertionError: expected [Congratulations! Your new account has been successfully created!] but found [If you already have an account with us, please login at the login page.]
+2026-05-18 10:56:09 INFO  BaseTest - Test Started: testMethod
+2026-05-18 10:56:10 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 10:56:10 INFO  BaseTest - Test Started: testMethod
+2026-05-18 10:56:10 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 10:56:10 INFO  BaseTest - Test Started: testMethod
+2026-05-18 10:56:10 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 10:56:10 INFO  BaseTest - Test Started: testMethod
+2026-05-18 10:56:10 ERROR BaseTest - Test Failed: testMethod
+2026-05-18 10:56:10 ERROR BaseTest - Reason: java.lang.AssertionError: expected [true] but found [false]
+2026-05-18 10:56:10 INFO  BaseTest - Test Started: loggingOut
+2026-05-18 10:56:10 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 10:56:10 ERROR BaseTest - Test Failed: loggingOut
+2026-05-18 10:56:10 ERROR BaseTest - Reason: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93f2ee994162b35ffa4aa32780d04a61, findElement {value=Logout, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2457255\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50068}, goog:processID: 9504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50068/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93f2ee994162b35ffa4aa32780d04a61
+2026-05-18 10:56:10 INFO  BaseTest - Test Started: loggingIn
+2026-05-18 10:56:10 INFO  BaseTest - Executing Scenario 3 registerAccount...
+2026-05-18 10:56:13 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 10:56:14 INFO  BaseTest - Test Sucess: loggingIn
+2026-05-18 10:56:14 INFO  BaseTest - Test Started: invalidLogin
+2026-05-18 10:56:14 INFO  BaseTest - Executing Scenario 4 registerAccount...
+2026-05-18 10:56:18 INFO  BaseTest - Test Sucess: invalidLogin
+2026-05-18 10:56:18 INFO  BaseTest - Quitting the browser to complete Execution.....
+2026-05-18 10:56:23 INFO  BaseTest - Test Finished: Test
+2026-05-18 11:01:10 INFO  BaseTest - Starting Suite: Test
+2026-05-18 11:01:10 INFO  BaseTest - Starting Test Execution...
+2026-05-18 11:01:10 INFO  BaseTest - Browser identified from config: chrome
+2026-05-18 11:01:18 INFO  BaseTest - Navigating to the URL: https://tutorialsninja.com/demo/
+2026-05-18 11:01:18 INFO  BaseTest - Test Started: registerAccount
+2026-05-18 11:01:18 INFO  BaseTest - Executing Scenario 1 registerAccount...
+2026-05-18 11:01:18 INFO  BaseTest - Clicked on My account...
+2026-05-18 11:01:20 INFO  BaseTest - Clicked on Register...
+2026-05-18 11:01:21 INFO  BaseTest - Filling the details
+2026-05-18 11:01:23 ERROR BaseTest - Test Failed: registerAccount
+2026-05-18 11:01:23 ERROR BaseTest - Reason: java.lang.AssertionError: expected [Congratulations! Your new account has been successfully created!] but found [If you already have an account with us, please login at the login page.]
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: testMethod
+2026-05-18 11:01:24 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: testMethod
+2026-05-18 11:01:24 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: testMethod
+2026-05-18 11:01:24 WARN  BaseTest - Test Skipped: testMethod
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: testMethod
+2026-05-18 11:01:24 ERROR BaseTest - Test Failed: testMethod
+2026-05-18 11:01:24 ERROR BaseTest - Reason: java.lang.AssertionError: expected [true] but found [false]
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: loggingOut
+2026-05-18 11:01:24 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 11:01:24 ERROR BaseTest - Test Failed: loggingOut
+2026-05-18 11:01:24 ERROR BaseTest - Reason: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71fe0c99efeda8086e23638f346c074, findElement {value=Logout, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2457255\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63280}, goog:processID: 11892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63280/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f71fe0c99efeda8086e23638f346c074
+2026-05-18 11:01:24 INFO  BaseTest - Test Started: loggingIn
+2026-05-18 11:01:24 INFO  BaseTest - Executing Scenario 3 registerAccount...
+2026-05-18 11:01:27 INFO  BaseTest - Executing Scenario 2 registerAccount...
+2026-05-18 11:01:27 ERROR BaseTest - Test Failed: loggingIn
+2026-05-18 11:01:27 ERROR BaseTest - Reason: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71fe0c99efeda8086e23638f346c074, findElement {value=Logout, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2457255\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63280}, goog:processID: 11892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63280/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f71fe0c99efeda8086e23638f346c074
+2026-05-18 11:01:27 INFO  BaseTest - Test Started: invalidLogin
+2026-05-18 11:01:27 INFO  BaseTest - Executing Scenario 4 registerAccount...
+2026-05-18 11:01:29 INFO  BaseTest - Test Sucess: invalidLogin
+2026-05-18 11:01:30 INFO  BaseTest - Quitting the browser to complete Execution.....
+2026-05-18 11:01:33 INFO  BaseTest - Test Finished: Test
+2026-05-18 14:32:09 INFO  BaseTest - Starting Test Execution...
+2026-05-18 14:32:09 INFO  BaseTest - Browser identified from config: chrome
+2026-05-18 14:32:21 INFO  BaseTest - Navigating to the URL: https://tutorialsninja.com/demo/
+2026-05-18 14:32:21 INFO  BaseTest - Quitting the browser to complete Execution.....
