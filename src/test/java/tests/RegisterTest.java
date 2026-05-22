@@ -45,7 +45,7 @@ public class RegisterTest extends BaseTest {
 	@Test(priority = 1, dependsOnMethods = "registerAccount")
 	public void loggingOut() {
 
-		log.info("Executing Scenario 2 registerAccount...");
+		log.info("Executing Scenario 2 logout...");
 		LogOut lo = new LogOut(driver);
 		lo.logOut();
 		String msg = lo.getLogOutMsg();
@@ -55,29 +55,19 @@ public class RegisterTest extends BaseTest {
 	}
 
 	@Test(priority = 2)
-	public void loggingIn() {
-		log.info("Executing Scenario 3 registerAccount...");
+	public void loggingInandOut() {
+		log.info("Executing Scenario 3 loggingIn...");
 		Login l = new Login(driver);
 		l.loginPage(mail, pass);
-
-		loggingOut();
+		l.logout();	
 	}
 
 	@Test(priority = 3)
 	public void invalidLogin() {
-		log.info("Executing Scenario 4 registerAccount...");
+		log.info("Executing Scenario 4 Invalid login...");
 		InvalidLogin il = new InvalidLogin(driver);
-		il.iloginPage(mail, wpass);
-
-	}
-
-	@Test(retryAnalyzer = utils.RetryAnalyzer.class)
-	public void testMethod() {
-		Assert.assertTrue(false);
-	}
-
-	@AfterSuite
-	public void flushReport() {
-		ReportManager.flushReports();
+		il.invalidLoginPage(mail, wpass);
+		String msg = il.getMsg();
+		Assert.assertEquals(msg, "Warning: No match for E-Mail Address and/or Password.");
 	}
 }

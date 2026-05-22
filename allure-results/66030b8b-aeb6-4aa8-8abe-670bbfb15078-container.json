@@ -1,1 +1,0 @@
-{"uuid":"66030b8b-aeb6-4aa8-8abe-670bbfb15078","name":"Surefire suite","children":["f75b2878-ebcf-431d-912d-f551ff704b31"],"befores":[],"afters":[{"name":"flushReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1778672096362,"stop":1778672096399}],"start":1778672063790,"stop":1778672096399}

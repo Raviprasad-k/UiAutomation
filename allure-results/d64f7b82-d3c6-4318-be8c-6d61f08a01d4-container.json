@@ -1,1 +1,0 @@
-{"uuid":"d64f7b82-d3c6-4318-be8c-6d61f08a01d4","name":"Default suite","children":["8f34af32-ef17-40b1-b95f-2c3ac995b40c"],"befores":[],"afters":[{"name":"flushReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1778673764142,"stop":1778673764159}],"start":1778673733431,"stop":1778673764160}

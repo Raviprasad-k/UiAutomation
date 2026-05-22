@@ -20,7 +20,6 @@ public class Screenshot {
 		if(!folder.exists()) {
 			folder.mkdirs();
 		}
-		
 		String path = folder.getAbsolutePath()+File.separator +screenshot_name+"_"+timestamp+".png";
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

@@ -7,8 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testMethod"/>
-          <include name="flushReport"/>
+          <include name="registerAccount"/>
         </methods>
       </class> <!-- tests.RegisterTest -->
     </classes>

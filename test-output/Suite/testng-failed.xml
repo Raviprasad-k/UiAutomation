@@ -3,17 +3,18 @@
 <suite name="Failed suite [Suite]">
   <listeners>
     <listener class-name="utils.TestListener"/>
+    <listener class-name="utils.RetryTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="tests.RegisterTest">
         <methods>
+          <include name="loggingInandOut"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testMethod"/>
-          <include name="flushReport"/>
           <include name="registerAccount"/>
-          <include name="loggingIn"/>
+          <include name="invalidLogin"/>
           <include name="loggingOut"/>
         </methods>
       </class> <!-- tests.RegisterTest -->

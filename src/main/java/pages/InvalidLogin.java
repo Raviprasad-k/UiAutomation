@@ -21,20 +21,26 @@ public class InvalidLogin {
 	private WebElement login_btn;
 	@FindBy(xpath = "//div[contains(@class,'alert-danger')]")
 	private WebElement loginErrorMessage;
+	@FindBy(xpath = "//div[contains(text(),'Warning')]")
+	private WebElement msg;
 
 	public InvalidLogin(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public void iloginPage(String mail, String pass) {
+	public void invalidLoginPage(String mail, String pass) {
 		myAccountLink.click();
 		login.click();
 		email.sendKeys(mail);
 		password.sendKeys(pass);
 		login_btn.click();
 		String emsg = loginErrorMessage.getText();
-		Assert.assertEquals(emsg, "Warning: No match for E-Mail Address and/or Password.");
+
+	}
+
+	public String getMsg() {
+		return msg.getText();
 	}
 
 }
